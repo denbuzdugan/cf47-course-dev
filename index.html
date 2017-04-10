@@ -24,7 +24,7 @@ text-align:center;
 <table style="border: 1px solid #000;">
   <tr>
     <th>Doctype</th>
-    <th>Declar</th>
+    <th>Declaration</th>
   </tr>
   <tr>
     <td style="border: 1px solid #000;">HTML 5</td>
@@ -72,6 +72,89 @@ text-align:center;
   <em>page content</em><br>
   <b>&lt;/body&gt;</b><br>
 </div>
+<br>
+<br>
+<h1>3. Head elements</h1>
+<br>
+<table style="border: 1px solid #000; margin:0 auto">
+  <tr>
+    <th style="border-right: 1px solid #000;">Elemets</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td style=" text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;title&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">defines a title in the browser tab</li>
+        <li  style="text-align: left;">provides a title for the page when it is added to favorites</li>
+        <li  style="text-align: left;">displays a title for the page in search engine result</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br>
+      &nbsp;
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>title<span style="color:mediumblue">&gt;</span></span>Page 
+      Title<span style="color:brown"><span style="color:mediumblue">&lt;</span>/title<span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>/head<span style="color:mediumblue">&gt;</span></span><br>
+      <br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br>
+      The content of the document......<br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br>
+      <br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;style&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">is used to define style information for a single HTML</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+      &nbsp;
+      body <span style="color:black">{</span><span style="color:red">background-color<span style="color:mediumblue"><span style="color:black">:</span> powderblue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>&nbsp; h1 <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
+      &nbsp;
+      p <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> blue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
+      </span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;link&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">is used to link to external style sheets</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="mystyle.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;meta&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">define the character set used</li>
+        <li  style="text-align: left;">define a description of your web page</li>
+        <li  style="text-align: left;">define the author of page</li>
+        <li  style="text-align: left;">refresh document every 30 seconds</li>
+        <li  style="text-align: left;">define keywords for search engines</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> charset<span style="color:mediumblue">="UTF-8"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> name<span style="color:mediumblue">="description"</span> content<span style="color:mediumblue">="Free Web tutorials"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> name<span style="color:mediumblue">="author"</span> content<span style="color:mediumblue">="John Doe"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> http-equiv<span style="color:mediumblue">="refresh"</span> content<span style="color:mediumblue">="30"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> name<span style="color:mediumblue">="keywords"</span> content<span style="color:mediumblue">="HTML, CSS, XML, JavaScript"</span></span><span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+
+
+  <!-- </div> -->
 </body>
 </html>
 
