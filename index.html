@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" >
-    <title>HTML course</title>
+    <title>Training course</title>
 </head>
 <body>
-    <h1>1. Doctypes declaration and variations</h1>
+  <br>
+  <!-- HTML -->
+  <h1 style="color: #006d00; font-weight: 700; border: 1px solid #000; background: #d6a3a3;">HTML</h2>
+  <br>
+    <h2>1. Doctypes declaration and variations</h2>
 <style>
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 h1,h2,h3 {
 text-align:center;
 margin:0 auto;
@@ -21,9 +28,10 @@ text-align:center;
 </style>
 </head>
 <body>
-<h1>HTML <span >&lt;!DOCTYPE&gt;</span> Declaration</h1>
+
+<h2>HTML <span >&lt;!DOCTYPE&gt;</span> Declaration</h2>
 <br>
-<table style="border: 1px solid #000;">
+<table class="simple_table">
   <tr>
     <th>Doctype</th>
     <th>Declaration</th>
@@ -62,7 +70,7 @@ text-align:center;
   </tr>
 </table>
 <br><br>
-  <h1>2. HTML, Head, and body tags understanding.</h1>
+  <h2>2. HTML, Head, and body tags understanding.</h2>
 <br>
 <div style="text-align: center;">
    <b>&lt;!DOCTYPE html&gt;</b><br>
@@ -76,7 +84,7 @@ text-align:center;
 </div>
 <br>
 <br>
-<h1>3. Head elements</h1>
+<h2>3. Head elements</h2>
 <br>
 <table style="border: 1px solid #000; margin:0 auto">
   <tr>
@@ -118,7 +126,7 @@ text-align:center;
     <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
       <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
       &nbsp;
-      body <span style="color:black">{</span><span style="color:red">background-color<span style="color:mediumblue"><span style="color:black">:</span> powderblue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>&nbsp; h1 <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
+      body <span style="color:black">{</span><span style="color:red">background-color<span style="color:mediumblue"><span style="color:black">:</span> powderblue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>&nbsp; h2 <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
       &nbsp;
       p <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> blue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
       </span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span>
@@ -140,10 +148,10 @@ text-align:center;
     <td style="border-top: 1px solid #000;">
       <ul>
         <li style="text-align: left;">define the character set used</li>
-        <li  style="text-align: left;">define a description of your web page</li>
-        <li  style="text-align: left;">define the author of page</li>
-        <li  style="text-align: left;">refresh document every 30 seconds</li>
-        <li  style="text-align: left;">define keywords for search engines</li>
+        <li style="text-align: left;">define a description of your web page</li>
+        <li style="text-align: left;">define the author of page</li>
+        <li style="text-align: left;">refresh document every 30 seconds</li>
+        <li style="text-align: left;">define keywords for search engines</li>
       </ul>
     </td>
     <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
@@ -157,7 +165,7 @@ text-align:center;
 </table>
 <br>
 <br>
-<h1>4. Scripts</h1>
+<h2>4. Scripts</h2>
 <br>
 <table style="border: 1px solid #000; margin:0 auto">
   <tr>
@@ -182,7 +190,7 @@ text-align:center;
       &lt;head&gt;<br>
       &lt;style&gt;<br>
       body {background-color: powderblue;}<br>
-      h1   {color: blue;}<br>
+      h2   {color: blue;}<br>
       p    {color: red;}<br>
       &lt;/style&gt;<br>
       &lt;/head&gt;<br>
@@ -202,7 +210,7 @@ text-align:center;
 </table>
 <br>
 <br>
-<h1>5. Typography</h1>
+<h2>5. Typography</h2>
 <br>
 <center> <!-- depricated tag -->
 <br>
@@ -231,19 +239,19 @@ text-align:center;
 </center>
 <br>
 <br>
-<h1>6. Block elements.</h1>
+<h2>6. Block elements.</h2>
 <br>
 <p>A block-level element always starts on a new line and takes up the full width available 
 (stretches out to the left and right as far as it can).</p>
 <div class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px;">
 The &lt;div&gt; element is a block-level element.</div><p>Examples of block-level elements:</p><ul>
   <li>&lt;div&gt;</li>
-  <li>&lt;h1&gt; - &lt;h6&gt;</li>
+  <li>&lt;h2&gt; - &lt;h6&gt;</li>
   <li>&lt;p&gt;</li>
   <li>&lt;form&gt;</li>
 </ul>
 <br>
-<h1>7. Inline elements</h1>
+<h2>7. Inline elements</h2>
 <br>
 <p>An inline element does not start on a new line and only takes up as much width as necessary.</p>
 <p>This is <span class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px">an inline &lt;span&gt; element 
@@ -254,7 +262,7 @@ inside</span> a paragraph.</p>
   <li>&lt;img&gt;</li>
 </ul>
 <br>
-<h1>8. New HTML tags</h1>
+<h2>8. New HTML tags</h2>
 <center><br>
 <table class="w3-table-all notranslate">
 <tbody><tr>
@@ -356,7 +364,7 @@ typography)</td>
 </center>
 <br>
 <br>
-<h1> 9. Form tags</h1>
+<h2> 9. Form tags</h2>
 <br>
 <center>
 <table>
@@ -418,7 +426,7 @@ typography)</td>
 </tr>
 </tbody></table></center>
 <br>
-<h1> 10. List tags</h1>
+<h2> 10. List tags</h2>
 <br>
 <center>
 <table>
@@ -452,6 +460,112 @@ typography)</td>
 </tr>
 </tbody></table></center>
 <br>
+<br>
+<p></p>
+<h1 style="color: #006d00; font-weight: 700; border: 1px solid #000; background: #d6a3a3;">CSS</h1>
+<p></p>
+<br>
+<h2>1. CSS terminology defenition</h2>
+<p style="text-indent: 1.5em;"><strong>CSS</strong> is a language that describes the style of an HTML document.</p>
+<h2>2. Inline styles vs files includes</h2>
+<br>
+<table style="border: 1px solid #000; margin:0 auto">
+  <tr>
+    <th style="border-right: 1px solid #000;">Elemets</th>
+    <th>Description</th>
+    <th style="border-left: 1px solid #000;">Example</th>
+  </tr>
+  <tr>
+    <td style=" text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">Inline</td>
+    <td style="border-top: 1px solid #000; text-align: center; ">by using the style attribute in HTML elements
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000; text-align: center; ">
+      &lt;tagname style="<em>property:value;</em>"&gt;<br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">Internal</td>
+    <td style="border-top: 1px solid #000; text-align: center; ">
+        by using a &lt;style&gt; element in the &lt;head&gt; section
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      &lt;head&gt;<br>
+      &lt;style&gt;<br>
+      body {background-color: powderblue;}<br>
+      h2   {color: blue;}<br>
+      p    {color: red;}<br>
+      &lt;/style&gt;<br>
+      &lt;/head&gt;<br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">External</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        An external style sheet is used to define the style for many HTML pages.
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="mystyle.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+</table>
+<br>
+<h2>3. Class vs id</h2>
+<br>
+<h3 style="text-align: left;">The id Selector</h3>
+<p>The id selector uses the id attribute of an HTML element to select a specific element.<br>The id of an element should be unique within a page, so the id selector is used to select one unique element!</p>
+<p>Example:</p>
+<span style="color:brown;">#para1</span> {<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">text-align</span>:&nbsp;<span style="color:mediumblue">center</span>;<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">color</span>:&nbsp;<span style="color:mediumblue"> red;</span><br>
+}
+<p></p>
+<h3 style="text-align: left;">The class Selector</h3>
+<p>The class selector selects elements with a specific class attribute.<br>To select elements with a specific class, write a period (.) character, followed by the name of the class.</p>
+<p>Example:</p>
+<span style="color:brown;">.center</span> {<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">text-align</span>:&nbsp;<span style="color:mediumblue">center</span>;<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">color</span>:&nbsp;<span style="color:mediumblue"> red;</span><br>
+}
+<br>
+<p></p>
+<h2>4. Tag, ID, class, etc.</h2>
+<br>
+<table class="simple_table">
+  <tr>
+    <th>Elements</th>
+    <th>Description</th>
+    <!-- <th class="element">Example</th> -->
+  </tr>
+  <tr>
+    <td class="element">&lt;div&gt;</td>
+    <td class="description" style="text-align: center;">div {}</td>
+    <!-- <td style="border-left: 1px solid #000; border-top: 1px solid #000; text-align: center; ">
+      &lt;tagname style="<em>property:value;</em>"&gt;<br>
+    </td> -->
+  </tr>
+  <tr>
+    <td class="element">&lt;id&gt;</td>
+    <td class="description" style="text-align: center;">#id {}</td>
+  </tr>
+  <tr>
+    <td class="element">&lt;class&gt;</td>
+    <td class="description" style="text-align: center;">.class {}</td>
+  </tr>
+  <tr>
+    <td class="element">nest</td>
+    <td class="description" style="text-align: center;">specify properties to selectors within other selectors</td>
+  </tr>
+  <tr>
+    <td class="element">:nth-of-type(2n+2)</td>
+    <td class="description" style="text-align: center;">select every 2-nd element begining from 2</td>
+  </tr>
+  <tr>
+    <td class="element">:nth-child</td>
+    <td class="description" style="text-align: center;">selects particular tag or attribute, for e.g. in css - div p:nth-child(2)selects 2-nd paragraph tag that has div parent </td>
+  </tr>
+</table>
 <br>
 
 </body>
