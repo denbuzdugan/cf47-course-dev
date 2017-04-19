@@ -1,0 +1,43 @@
+body {
+	background: transparent;
+}
+.simple_table{
+	border: 1px solid #000; 
+	margin: 0 auto;
+}
+
+th {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+td {
+	padding: 5px;
+}
+
+.element {
+	border: 1px solid #000;
+	text-align: center;
+	width: 30%;
+}
+
+.description {
+	border: 1px solid #000;
+	
+}
+
+.example {
+	border: 1px solid #000;
+}
+
+.selector {
+	color: mediumblue;
+}
+
+.property {
+	color: brown;
+}
+
+.value {
+	color: red;
+}
