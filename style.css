@@ -1,5 +1,6 @@
 body {
 	background: transparent;
+	position: relative;
 }
 .simple_table{
 	border: 1px solid #000; 
@@ -40,4 +41,113 @@ td {
 
 .value {
 	color: red;
+}
+
+.table_header {
+	text-align: center;
+	/*background: #eee;*/
+	/*margin: 20px;*/
+}
+
+.table_header h4 {
+	margin: 0;
+}
+
+.responsive_table {
+	display: block;
+	background: #eee;
+	position: relative;
+}
+
+.responsive_column {
+	float: left;
+	width: 25%;
+	height: 200px;
+}
+
+.responsive_column:hover {
+	background: pink !important;
+	transition: 500ms;
+
+}
+
+.responsive_column:nth-child(4n+1){
+	clear: both;
+}
+
+.responsive_column p {
+	margin: 0;
+}
+
+@media (max-width: 1200px) {
+	.responsive_column {
+		width: 33.3333%;
+	}
+	.responsive_column:nth-child(3n+1){
+		clear: both;
+	}
+	.responsive_column:nth-child(4n+1){
+	clear: none;
+}
+}
+
+@media (max-width: 968px) {
+	.responsive_column {
+		width: 50%;
+	}
+	.responsive_column:nth-child(2n+1){
+		clear: both;
+	}
+	.responsive_column:nth-child(3n+1){
+	clear: none;
+}
+}
+
+@media (max-width: 767px) {
+	.responsive_column {
+		width: 100%;
+	}
+}
+
+/*@media (min-width: 1200px) {
+	.responsive_column {
+		width: 25%;
+	}
+}*/
+
+.table_header_flex {
+	clear:both;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+#modal .title {background: red;}
+.title {background: blue;}
+#modal #title {background: yellow;}
+/*h1 {color: green;}*/
+/*h1.title {background:blue;}*/
+/*.title-red {background:red;}*/
+.title.title-red{background: purple;}
+/*h1.title-red {background:red;}*/
+#modal {
+	background: pink;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 50px;
+	margin-left: -70px;
+	margin-top: -40px;
+}
+
+.responsive_table_flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.responsive_column_flex {
+	width: 25%;
+	height: 200px;
+	
 }
