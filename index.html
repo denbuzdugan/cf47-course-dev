@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" >
+    <title>Training course</title>
+</head>
+<body>
+  <br>
+  <!-- HTML -->
+  <h1 style="color: #006d00; font-weight: 700; border: 1px solid #000; background: #d6a3a3;">HTML</h1>
+  <br>
+    <h2>1. Doctypes declaration and variations</h2>
+<style>
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3 {
+text-align:center;
+margin:0 auto;
+}
+h3 ,h5 {
+text-align:center;
+}
+</style>
+<body>
+
+<h2>HTML <span >&lt;!DOCTYPE&gt;</span> Declaration</h2>
+<br>
+<table class="simple_table">
+  <tr>
+    <th>Doctype</th>
+    <th>Declaration</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">HTML 5</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE html&gt;</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">HTML 4.01 Strict</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">HTML 4.01 Transitional</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">HTML 4.01 Frameset</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd""&gt;</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">XHTML 1.0 Strict</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">XHTML 1.0 Transitional</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">XHTML 1.0 Frameset</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;">XHTML 1.1</td>
+    <td style="border: 1px solid #000;">&lt;!DOCTYPE html PUBLIC "!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd""&gt;</td>
+  </tr>
+</table>
+<br><br>
+  <h2>2. HTML, Head, and body tags understanding.</h2>
+<br>
+<div style="text-align: center;">
+   <b>&lt;!DOCTYPE html&gt;</b><br>
+  <b>&lt;html&gt;</b><br>
+  <b>&lt;head&gt;</b><br>
+  <em>charset, title and meta tags should be added in &lt;head&gt;</em><br>
+  <b>&lt;/head&gt;</b><br>
+  <b>&lt;body&gt;</b><br>
+  <em>page content</em><br>
+  <b>&lt;/body&gt;</b><br>
+</div>
+<br>
+<br>
+<h2>3. Head elements</h2>
+<br>
+<table style="border: 1px solid #000; margin:0 auto">
+  <tr>
+    <th style="border-right: 1px solid #000;">Elemets</th>
+    <th>Description</th>
+    <th style="border-left: 1px solid #000;">Example</th>
+  </tr>
+  <tr>
+    <td style=" text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;title&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">defines a title in the browser tab</li>
+        <li  style="text-align: left;">provides a title for the page when it is added to favorites</li>
+        <li  style="text-align: left;">displays a title for the page in search engine result</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br>
+      &nbsp;
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>title<span style="color:mediumblue">&gt;</span></span>Page 
+      Title<span style="color:brown"><span style="color:mediumblue">&lt;</span>/title<span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>/head<span style="color:mediumblue">&gt;</span></span><br>
+      <br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br>
+      The content of the document......<br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br>
+      <br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;style&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">is used to define style information for a single HTML</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+      &nbsp;
+      body <span style="color:black">{</span><span style="color:red">background-color<span style="color:mediumblue"><span style="color:black">:</span> powderblue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>&nbsp; h2 <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
+      &nbsp;
+      p <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> blue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
+      </span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;link&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">is used to link to external style sheets</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="mystyle.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">&lt;meta&gt;</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        <li style="text-align: left;">define the character set used</li>
+        <li style="text-align: left;">define a description of your web page</li>
+        <li style="text-align: left;">define the author of page</li>
+        <li style="text-align: left;">refresh document every 30 seconds</li>
+        <li style="text-align: left;">define keywords for search engines</li>
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> charset<span style="color:mediumblue">="UTF-8"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> name<span style="color:mediumblue">="description"</span> content<span style="color:mediumblue">="Free Web tutorials"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> name<span style="color:mediumblue">="author"</span> content<span style="color:mediumblue">="John Doe"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> http-equiv<span style="color:mediumblue">="refresh"</span> content<span style="color:mediumblue">="30"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> name<span style="color:mediumblue">="keywords"</span> content<span style="color:mediumblue">="HTML, CSS, XML, JavaScript"</span></span><span style="color:mediumblue">&gt;</span></span>
+  </td>
+</tr>
+</table>
+<br>
+<br>
+<h2>4. Scripts</h2>
+<br>
+<table style="border: 1px solid #000; margin:0 auto">
+  <tr>
+    <th style="border-right: 1px solid #000;">Elemets</th>
+    <th>Description</th>
+    <th style="border-left: 1px solid #000;">Example</th>
+  </tr>
+  <tr>
+    <td style=" text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">Inline</td>
+    <td style="border-top: 1px solid #000; text-align: center; ">by using the style attribute in HTML elements
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000; text-align: center; ">
+      &lt;tagname style="<em>property:value;</em>"&gt;<br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">Internal</td>
+    <td style="border-top: 1px solid #000; text-align: center; ">
+        by using a &lt;style&gt; element in the &lt;head&gt; section
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      &lt;head&gt;<br>
+      &lt;style&gt;<br>
+      body {background-color: powderblue;}<br>
+      h2   {color: blue;}<br>
+      p    {color: red;}<br>
+      &lt;/style&gt;<br>
+      &lt;/head&gt;<br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">External</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        An external style sheet is used to define the style for many HTML pages.
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="mystyle.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<h2>5. Typography</h2>
+<br>
+<center> <!-- depricated tag -->
+<br>
+<table  style="border: 1px solid #000;">
+  <tr>
+    <th>Tag</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">h1&hellip;&nbsp;h6</td>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">Headlines</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">p</td>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">Paragraph</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">strong</td>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">Bold</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">em</td>
+    <td style="border: 1px solid #000; text-align: center; width: 30%;">Italic</td>
+  </tr>
+</table>
+</center>
+<br>
+<br>
+<h2>6. Block elements.</h2>
+<br>
+<p>A block-level element always starts on a new line and takes up the full width available 
+(stretches out to the left and right as far as it can).</p>
+<div class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px;">
+The &lt;div&gt; element is a block-level element.</div><p>Examples of block-level elements:</p><ul>
+  <li>&lt;div&gt;</li>
+  <li>&lt;h2&gt; - &lt;h6&gt;</li>
+  <li>&lt;p&gt;</li>
+  <li>&lt;form&gt;</li>
+</ul>
+<br>
+<h2>7. Inline elements</h2>
+<br>
+<p>An inline element does not start on a new line and only takes up as much width as necessary.</p>
+<p>This is <span class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px">an inline &lt;span&gt; element 
+inside</span> a paragraph.</p>
+<ul>
+  <li>&lt;span&gt;</li>
+  <li>&lt;a&gt;</li>
+  <li>&lt;img&gt;</li>
+</ul>
+<br>
+<h2>8. New HTML tags</h2>
+<center><br>
+<table class="w3-table-all notranslate">
+<tbody><tr>
+<th style="width:15%">Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;article&gt;</td>
+<td style="border: 1px solid #000;">Defines an article in the document</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;aside&gt;</td>
+<td style="border: 1px solid #000;">Defines content aside from the page content</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;bdi&gt;</td>
+<td style="border: 1px solid #000;">Defines a part of text that might be formatted in a different direction 
+from other text</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;details&gt;</td>
+<td style="border: 1px solid #000;">Defines additional details that the user can view or hide</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;dialog&gt;</td>
+<td style="border: 1px solid #000;">Defines a dialog box or window</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;figcaption&gt;</td>
+<td style="border: 1px solid #000;">Defines a caption for a &lt;figure&gt; element</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;figure&gt;</td>
+<td style="border: 1px solid #000;">Defines self-contained content, like illustrations, diagrams, photos, code 
+listings, etc.</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;footer&gt;</td>
+<td style="border: 1px solid #000;">Defines a footer for the document or a section</td>
+  </tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;header&gt;</td>
+<td style="border: 1px solid #000;">Defines a header for the document or a section</td>
+</tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;main&gt;</td>
+<td style="border: 1px solid #000;">Defines the main content of a document</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;mark&gt;</td>
+<td style="border: 1px solid #000;">Defines marked or highlighted text</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;menuitem&gt;&nbsp;</td>
+<td style="border: 1px solid #000;">Defines a command/menu item that the user can invoke from a popup menu</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;meter&gt;</td>
+<td style="border: 1px solid #000;">Defines a scalar measurement within a known range (a gauge)</td>
+  </tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;nav&gt;</td>
+<td style="border: 1px solid #000;">Defines navigation links in the document</td>
+</tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;progress&gt;</td>
+<td style="border: 1px solid #000;">Defines the progress of a task</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;rp&gt;</td>
+<td style="border: 1px solid #000;">Defines what to show in browsers that do not support ruby annotations</td>
+  </tr>
+  <tr>
+<td  style="border: 1px solid #000;">&lt;rt&gt;</td>
+<td  style="border: 1px solid #000;">Defines an explanation/pronunciation of characters (for East Asian 
+typography)</td>
+  </tr>
+  <tr>
+<td style="border: 1px solid #000;">&lt;ruby&gt;</td>
+<td style="border: 1px solid #000;">Defines a ruby annotation (for East Asian typography)</td>
+  </tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;section&gt;</td>
+<td style="border: 1px solid #000;">Defines a section in the document</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;summary&gt;</td>
+<td style="border: 1px solid #000;">Defines a visible heading for a &lt;details&gt; element</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;time&gt;</td>
+<td style="border: 1px solid #000;">Defines a date/time</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;wbr&gt;</td>
+<td style="border: 1px solid #000;">Defines a possible line-break</td>
+</tr>
+</tbody></table>
+</center>
+<br>
+<br>
+<h2> 9. Form tags</h2>
+<br>
+<center>
+<table>
+<tbody><tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;form&gt;</td>
+<td style="border: 1px solid #000;">Defines an HTML form for user input</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;input&gt;</td>
+<td style="border: 1px solid #000;">Defines an input control</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;textarea&gt;</td>
+<td style="border: 1px solid #000;">Defines a multiline input control (text area)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;label&gt;</td>
+<td style="border: 1px solid #000;">Defines a label for an &lt;input&gt; element</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;fieldset&gt;</td>
+<td style="border: 1px solid #000;">Groups related elements in a form</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;legend&gt;</td>
+<td style="border: 1px solid #000;">Defines a caption for a &lt;fieldset&gt; element</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;select&gt;</td>
+<td style="border: 1px solid #000;">Defines a drop-down list</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;optgroup&gt;</td>
+<td style="border: 1px solid #000;">Defines a group of related options in a drop-down list</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;option&gt;</td>
+<td style="border: 1px solid #000;">Defines an option in a drop-down list</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;button&gt;</td>
+<td style="border: 1px solid #000;">Defines a clickable button</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;datalist&gt;</td>
+<td style="border: 1px solid #000;">Specifies a list of pre-defined options for input controls</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;keygen&gt;</td>
+<td style="border: 1px solid #000;">Defines a key-pair generator field (for forms)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;output&gt;</td>
+<td style="border: 1px solid #000;">Defines the result of a calculation</td>
+</tr>
+</tbody></table></center>
+<br>
+<h2> 10. List tags</h2>
+<br>
+<center>
+<table>
+<tbody><tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;ul&gt;</td>
+<td style="border: 1px solid #000;">Defines an unordered list</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;ol&gt;</td>
+<td style="border: 1px solid #000;">Defines an ordered list</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;li&gt;</td>
+<td style="border: 1px solid #000;">Defines a list item</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;dl&gt;</td>
+<td style="border: 1px solid #000;">Defines a description list</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;dt&gt;</td>
+<td style="border: 1px solid #000;">Defines a term in a description list</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000;">&lt;dd&gt;</td>
+<td style="border: 1px solid #000;">Describes the term in a description list</td>
+</tr>
+</tbody></table></center>
+<br>
+<br>
+<p></p>
+<h1 style="color: #006d00; font-weight: 700; border: 1px solid #000; background: #d6a3a3;">CSS</h1>
+<p></p>
+<br>
+<h2>1. CSS terminology defenition</h2>
+<p style="text-indent: 1.5em;"><strong>CSS</strong> is a language that describes the style of an HTML document.</p>
+<h2>2. Inline styles vs files includes</h2>
+<br>
+<table style="border: 1px solid #000; margin:0 auto">
+  <tr>
+    <th style="border-right: 1px solid #000;">Elemets</th>
+    <th>Description</th>
+    <th style="border-left: 1px solid #000;">Example</th>
+  </tr>
+  <tr>
+    <td style=" text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">Inline</td>
+    <td style="border-top: 1px solid #000; text-align: center; ">by using the style attribute in HTML elements
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000; text-align: center; ">
+      &lt;tagname style="<em>property:value;</em>"&gt;<br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">Internal</td>
+    <td style="border-top: 1px solid #000; text-align: center; ">
+        by using a &lt;style&gt; element in the &lt;head&gt; section
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      &lt;head&gt;<br>
+      &lt;style&gt;<br>
+      body {background-color: powderblue;}<br>
+      h2   {color: blue;}<br>
+      p    {color: red;}<br>
+      &lt;/style&gt;<br>
+      &lt;/head&gt;<br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 30%; text-align: center; border-right: 1px solid #000; border-top: 1px solid #000;">External</td>
+    <td style="border-top: 1px solid #000;">
+      <ul>
+        An external style sheet is used to define the style for many HTML pages.
+      </ul>
+    </td>
+    <td style="border-left: 1px solid #000; border-top: 1px solid #000;">
+      <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="mystyle.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+    </td>
+  </tr>
+</table>
+<br>
+<h2>3. Class vs id</h2>
+<br>
+<h3 style="text-align: left;">The id Selector</h3>
+<p>The id selector uses the id attribute of an HTML element to select a specific element.<br>The id of an element should be unique within a page, so the id selector is used to select one unique element!</p>
+<p>Example:</p>
+<span style="color:brown;">#para1</span> {<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">text-align</span>:&nbsp;<span style="color:mediumblue">center</span>;<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">color</span>:&nbsp;<span style="color:mediumblue"> red;</span><br>
+}
+<p></p>
+<h3 style="text-align: left;">The class Selector</h3>
+<p>The class selector selects elements with a specific class attribute.<br>To select elements with a specific class, write a period (.) character, followed by the name of the class.</p>
+<p>Example:</p>
+<span style="color:brown;">.center</span> {<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">text-align</span>:&nbsp;<span style="color:mediumblue">center</span>;<br>
+&nbsp;&nbsp;&nbsp;<span style="color: red;">color</span>:&nbsp;<span style="color:mediumblue"> red;</span><br>
+}
+<br>
+<p></p>
+<h2>4. Tag, ID, class, etc.</h2>
+<br>
+<table class="simple_table">
+  <tr>
+    <th>Elements</th>
+    <th>Description</th>
+    <!-- <th class="element">Example</th> -->
+  </tr>
+  <tr>
+    <td class="element">&lt;div&gt;</td>
+    <td class="description" style="text-align: center;">div {}</td>
+    <!-- <td style="border-left: 1px solid #000; border-top: 1px solid #000; text-align: center; ">
+      &lt;tagname style="<em>property:value;</em>"&gt;<br>
+    </td> -->
+  </tr>
+  <tr>
+    <td class="element">&lt;id&gt;</td>
+    <td class="description" style="text-align: center;">#id {}</td>
+  </tr>
+  <tr>
+    <td class="element">&lt;class&gt;</td>
+    <td class="description" style="text-align: center;">.class {}</td>
+  </tr>
+  <tr>
+    <td class="element">nest</td>
+    <td class="description" style="text-align: center;">specify properties to selectors within other selectors</td>
+  </tr>
+  <tr>
+    <td class="element">:nth-of-type(2n+2)</td>
+    <td class="description" style="text-align: center;">select every 2-nd element begining from 2</td>
+  </tr>
+  <tr>
+    <td class="element">:nth-child</td>
+    <td class="description" style="text-align: center;">selects particular tag or attribute, for e.g. in css - div p:nth-child(2)selects 2-nd paragraph tag that has div parent </td>
+  </tr>
+</table>
+<br>
+<h2>5. Spacing properties</h2>
+<br>
+<ul>
+  <li>box-sizing: border-box</li>
+  <li>padding</li>
+  <li>margin</li>
+  <li>letter-spacing</li>
+  <li>border-spacing</li>
+  <li>word-spacing</li>
+</ul>
+<br>
+<h2>6. Selectors' gravity and priority</h2>
+<br>
+<ol>
+  <li><strong>Inline</strong> - by using the style attribute in HTML elements</li>
+  <li><strong>Internal</strong> - by using a &lt;style&gt; element in the &lt;head&gt; section</li>
+  <li><strong>External</strong> - an external style sheet is used to define the style for many HTML pages</li>
+</ol>
+<br>
+<h2>7. Sizing properties</h2>
+<br>
+<ul>
+  <li>width</li>
+  <li>height</li>
+</ul>
+<br>
+<h2>8. Position properties</h2>
+<br>
+<ul>
+  <li>static</li>
+  <li>absolute</li>
+  <li>relative</li>
+  <li>initial/inherit</li>
+</ul>
+<br>
+<h2>9. Floating properties</h2>
+<br>
+<ul>
+  <li>left</li>
+  <li>right</li>
+  <li>clear</li>
+</ul>
+<br>
+<h2>10. Font properties</h2>
+<br>
+<table class="simple_table">
+  <tr>
+    <th>Elements</th>
+    <th>Description</th>
+    <th>Example</th>
+    <!-- <th class="element">Example</th> -->
+  </tr>
+  <tr>
+    <td class="element">font-style</td>
+    <td class="description">Specifies the font style. Default value is "normal".</td>
+    <td class="example">
+      <span class="selector">p.italic</span> {<br>
+      <span class="property">&nbsp;&nbsp;font-style</span>:<span class="value">&nbsp;italic</span>;<br>}
+    </td>
+  </tr>
+  <tr>
+    <td class="element">font-variant</td>
+    <td class="description">Specifies the font variant. Default value is "normal".</td>
+    <td class="example">
+      <span class="selector">p.small</span> {<br>
+      <span class="property">&nbsp;&nbsp;font-variant</span>:<span class="value">&nbsp;small-caps</span>;<br>}
+    </td>
+  </tr>
+  <tr>
+    <td class="element">font-weight</td>
+    <td class="description">Specifies the font weight. Default value is "normal".</td>
+    <td class="example">
+      <span class="selector">p.thicker</span> {<br>
+      <span class="property">&nbsp;&nbsp;font-weight</span>:<span class="value">&nbsp;900</span>;<br>}
+    </td>
+  </tr>
+  <tr>
+    <td class="element">font-size</td>
+    <td class="description">Specifies the font size. Default value is "normal".</td>
+    <td class="example">
+      <span class="selector">p</span> {<br>
+      <span class="property">&nbsp;&nbsp;font-size</span>:<span class="value">&nbsp;15px</span>;<br>}
+    </td>
+  </tr>
+  <tr>
+    <td class="element">line-height</td>
+    <td class="description">Specifies the line height. Default value is "normal".</td>
+    <td class="example">
+      <span class="selector">p.small</span> {<br>
+      <span class="property">&nbsp;&nbsp;line-height</span>:<span class="value">&nbsp;90%</span>;<br>}
+    </td>
+  </tr>
+  <tr>
+    <td class="element">font-family</td>
+    <td class="description">Specifies the font family. Default value depends on the browser.</td>
+    <td class="example">
+      <span class="selector">p</span> {<br>
+      <span class="property">&nbsp;&nbsp;font-family</span>:<span class="value">&nbsp;"Times New Roman", Georgia, Serif</span>;<br>}
+    </td>
+  </tr>
+  <tr>
+    <td class="element">caption</td>
+    <td class="description">Uses the font that are used by captioned controls (like buttons, drop-downs, etc.).</td>
+    <td class="example"></td>
+  </tr>
+  <tr>
+    <td class="element">menu</td>
+    <td class="description">Uses the fonts that are used by dropdown menus.</td>
+    <td class="example"></td>
+  </tr>
+   <tr>
+    <td class="element">icon</td>
+    <td class="description">Uses the font that are used by icon labels.</td>
+    <td class="example"></td>
+  </tr>
+   <tr>
+    <td class="element">message-box</td>
+    <td class="description">Uses the fonts that are used by dialog boxes.</td>
+    <td class="example"></td>
+  </tr>
+   <tr>
+    <td class="element">small-caption</td>
+    <td class="description">A smaller version of the caption font.</td>
+    <td class="example"></td>
+  </tr>
+  <tr>
+    <td class="element">status-bar</td>
+    <td class="description">  Uses the fonts that are used by the status bar.</td>
+    <td class="example"></td>
+  </tr>
+  <tr>
+    <td class="element">initial</td>
+    <td class="description">Sets this property to its default value.</td>
+    <td class="example"></td>
+  </tr>
+  <tr>
+    <td class="element">inherit</td>
+    <td class="description">Inherits this property from its parent element.</td>
+    <td class="example"></td>
+  </tr>
+</table>
+<p></p>
+<h2> 11. Colors properties</h2>
+<br>
+<ul>
+  <li>color: rgb(211, 100, 150);</li>
+  <li>color: rgb(55%, 0%, 99%);</li>
+  <li>color: rgba(255, 250, 5, 0.7);</li>
+  <li>color: #ffffff;</li>
+  <li>color: #fff;</li>
+  <li>color: yellow;</li>
+</ul>
+<p></p>
+<h2>12. Display properties</h2>
+<br>
+<table class="simple_table">
+  <tr>
+    <th>Elements</th>
+    <th>Description</th>
+    <!-- <th class="element">Example</th> -->
+  </tr>
+  <tr>
+    <td class="element">inline</td>
+    <td class="description">Default value. Displays an element as an inline element (like &lt;span&gt;)</td>
+  </tr>
+  <tr>
+    <td class="element">block</td>
+    <td class="description">Displays an element as a block element (like  &lt;p&gt;)</td>
+  </tr>
+  <tr>
+    <td class="element">flex</td>
+    <td class="description">Displays an element as an block-level flex container (CSS3).</td>
+  </tr>
+  <tr>
+    <td class="element">inline-box</td>
+    <td class="description">Displays an element as an inline-level block container. <br>The inside of this block is formatted as block-level box, and the element itself is formatted as an inline-level box.</td>
+  </tr>
+  <tr>
+    <td class="element">inline-flex</td>
+    <td class="description">Displays an element as an inline-level flex container (CSS3).</td>
+  </tr>
+  <tr>
+    <td class="element">inline-table</td>
+    <td class="description">The element is displayed as an inline-level table.</td>
+  </tr>
+  <tr>
+    <td class="element">list-item</td>
+    <td class="description">Let the element behave like a &lt;li&gt; element.</td>
+  </tr>
+  <tr>
+    <td class="element">run-in</td>
+    <td class="description">Let the element behave like a &lt;caption&gt; element</td>
+  </tr>
+   <tr>
+    <td class="element">table</td>
+    <td class="description">Let the element behave like a &lt;table&gt; element</td>
+  </tr>
+   <tr>
+    <td class="element">table-caption</td>
+    <td class="description">Let the element behave like a &lt;caption&gt; element</td>
+  </tr>
+   <tr>
+    <td class="element">table-column-group</td>
+    <td class="description">Let the element behave like a &lt;colgroup&gt; element</td>
+  </tr>
+  <tr>
+    <td class="element">table-header-group</td>
+    <td class="description">Let the element behave like a &lt;thead&gt; element</td>
+  </tr>
+  <tr>
+    <td class="element">table-footer-group</td>
+    <td class="description">Let the element behave like a &lt;tfoot&gt; element</td>
+  </tr>
+  <tr>
+    <td class="element">table-row-group</td>
+    <td class="description">Let the element behave like a &lt;tbody&gt; element</td>
+  </tr>
+  <tr>
+    <td class="element">table-cell</td>
+    <td class="description">Let the element behave like a &lt;td&gt; element</td>
+  </tr>
+  <tr>
+    <td class="element">table-column</td>
+    <td class="description">Let the element behave like a &lt;col&gt; element</td>
+  </tr>
+  <tr>
+    <td class="element">table-row</td>
+    <td class="description">Let the element behave like a &lt;tr&gt; element</td>
+  </tr>
+  <tr>
+    <td class="element">none</td>
+    <td class="description">The element will not be displayed at all (has no effect on layout)</td>
+  </tr>
+  <tr>
+    <td class="element">initial</td>
+    <td class="description">Sets this property to its default value.</td>
+  </tr>
+   <tr>
+    <td class="element">inherit</td>
+    <td class="description">Inherits this property from its parent element.</td>
+  </tr>
+</table>
+<p></p>
+<h2>13. Animation properties</h2>
+<br>
+<table class="simple_table">
+  <tr>
+    <th>Elements</th>
+    <th>Description</th>
+    <!-- <th class="element">Example</th> -->
+  </tr>
+  <tr>
+    <td class="element">animation</td>
+    <td class="description">Specifies the keyframe-based animations.</td>
+  </tr>
+  <tr>
+    <td class="element">animation-name</td>
+    <td class="description">Speifies the @keyframes animation name</td>
+  </tr>
+  <tr>
+    <td class="element">animation-delay</td>
+    <td class="description">Specifies when the animation will start.</td>
+  </tr>
+  <tr>
+    <td class="element">animation-delay</td>
+    <td class="description">Specifies whether the animation should play in reverse on alternate cycles or not.</td>
+  </tr>
+  <tr>
+    <td class="element">animation-duration</td>
+    <td class="description">Specifies the number of seconds or milliseconds an animation should take to complete one cycle.</td>
+  </tr>
+  <tr>
+    <td class="element">animation-fill-mode</td>
+    <td class="description">Specifies how a CSS animation should apply styles to its target before and after it is executing.</td>
+  </tr>
+  <tr>
+    <td class="element">animation-teration-count</td>
+    <td class="description">Specifies the number of times an animation cycle should be played before stopping.</td>
+  </tr>
+  <tr>
+    <td class="element">animation-play-state</td>
+    <td class="description">Specifies whether the animation is running or paused.</td>
+  </tr>
+  <tr>
+    <td class="element">animation-timing-function</td>
+    <td class="description">Specifies how a CSS animation should progress over the duration of each cycle.</td>
+  </tr>
+</table>
+<br>
+<p></p>
+<h3>selector priority</h3>
+<br>
+<div id="modal">
+  <h1 id="title" class="title title-red"> OK </h1>
+</div>
+<br>
+<h3>Media</h3>
+<br>
+
+<div class="table_header">
+  <h4>Responsive table</h4>
+</div>
+<div class="responsive_table">
+  <div class="responsive_column" style="background: red;"></div>
+  <div class="responsive_column" style="background: green; height: 250px;"></div>
+  <div class="responsive_column" style="background: blue;"></div>
+  <div class="responsive_column" style="background: yellow;"></div>
+  <div class="responsive_column" style="background: purple;"></div>
+  <div class="responsive_column" style="background: black;"></div>
+  <div class="clearfix"></div>
+  <div id="modal">privet</div>
+</div>
+
+<br>
+<p></p>
+<div class="table_header_flex">
+  <h4>Responsive table</h4>
+</div>
+<div class="responsive_table_flex">
+  <div class="responsive_column_flex" style="background: red;">1</div>
+  <div class="responsive_column_flex" style="background: green;  height: 250px;">2</div>
+  <div class="responsive_column_flex" style="background: blue;">3</div>
+  <div class="responsive_column_flex" style="background: yellow;">4</div>
+  <div class="responsive_column_flex" style="background: purple;">5</div>
+  <div class="responsive_column_flex" style="background: black;">6</div>
+</div>
+</body>
+</html>
+
+
+
