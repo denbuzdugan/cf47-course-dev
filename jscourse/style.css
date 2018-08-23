@@ -1,0 +1,64 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.site-header {
+	display: block;
+}
+
+.site-title {
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.js-form {
+	display: block;
+}
+
+.form-label {
+	display: block;
+	font-weight: 700;
+}
+
+.form-input, .alert-button {
+	display: inline-block;
+	line-height: 1.6;
+	font-size: 15px;
+}
+
+.form-label, .form-input {
+	margin-bottom: 10px;
+}
+
+.form-input {
+	width: 70%;
+	margin-right: 5px;
+}
+
+.alert-button {
+	width: 25%;
+}
+.alert-form {
+	padding-left: 30px;
+	width: 350px;
+}
+
+.field-group {
+	display: block;
+	position: relative;
+}
+
+.input-button-group {
+	display: block;
+	width: 100%;
+}
+
+.form-buttons {
+	display: block;
+}
+
+.submit--button {
+	line-height: 1.6;
+	font-size: 15px;
+}
