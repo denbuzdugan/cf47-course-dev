@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Form (JS tutorial)</title>
+</head>
+<style>
+  body {
+    font-family: 'Montserrat';
+  }
+  
+  .form-title {
+    color: #ff5246;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  .form{
+    margin-top: 10px;
+  }
+  
+  .form-input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .form-btn {
+    margin-right: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 16px;
+    color: #000;
+    box-shadow: 2px 2px 2px #000;
+  }
+  
+  .form-btn:hover {
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+  }
+  
+  .form-btn:focus {
+    outline: none;
+  }
+  
+  .form-btn:active, .form-btn:focus {
+    box-shadow: 2px 2px 1px #000;
+    border: 2px solid #fff;
+  }
+  
+  .form-label {
+    font-weight: 700;
+  }
+</style>
+<body>
+  <section class="main-page">
+    <h4 class="form-title">Test form</h4>
+    <form class="form" action="index2.html" method="get">
+      <label for="name" class="form-label">Name:</label>
+      <input id="name" class="form-input" name="Name">
+      <button type="button" class="form-btn">Alert</button>
+      <button type="reset" class="form-btn">Reset</button>
+      <button type="submit" class="form-btn">Submit</button>
+    </form>
+  </section>
+</body>
