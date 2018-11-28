@@ -2,6 +2,7 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="main.css" rel="stylesheet" type="text/css">
   <meta charset="UTF-8">
   <title>Form (JS tutorial)</title>
 </head>
@@ -31,27 +32,31 @@
     margin-right: 10px;
     padding: 5px;
     text-transform: uppercase;
-    background: #fff;
-    border: 2px solid #000;
-    border-radius: 16px;
-    color: #000;
-    box-shadow: 2px 2px 2px #000;
+    background: linear-gradient(#eee, #858784);
+    /*border: 2px solid #000;*/
+    /*border-radius: 16px;*/
+    /*color: #000;*/
+    /*box-shadow: 2px 2px 2px #000;*/
   }
   
-  .form-btn:hover {
-    cursor: pointer;
-    background: #000;
-    color: #fff;
-  }
+  /*.form-btn:hover {*/
+    /*cursor: pointer;*/
+    /*background: #000;*/
+    /*color: #fff;*/
+  /*}*/
   
   .form-btn:focus {
     outline: none;
   }
   
-  .form-btn:active, .form-btn:focus {
-    box-shadow: 2px 2px 1px #000;
-    border: 2px solid #fff;
+  .form-btn:hover {
+    cursor: pointer;
   }
+  
+  /*.form-btn:active, .form-btn:focus {*/
+    /*box-shadow: 2px 2px 1px #000;*/
+    /*border: 2px solid #fff;*/
+  /*}*/
   
   .form-label {
     font-weight: 700;
@@ -60,7 +65,7 @@
 <body>
   <section class="main-page">
     <h4 class="form-title">Test form</h4>
-    <form class="form" action="index2.html" method="get">
+    <form class="form" action="basicjs.html" method="get">
       <label for="name" class="form-label">Name:</label>
       <input id="name" class="form-input" name="Name">
       <button type="button" class="form-btn">Alert</button>
@@ -68,4 +73,5 @@
       <button type="submit" class="form-btn">Submit</button>
     </form>
   </section>
+<script src="script.js" type="text/javascript"></script>
 </body>
