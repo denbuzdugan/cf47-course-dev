@@ -866,9 +866,9 @@ typography)</td>
 <br>
 
 <div class="table_header">
-  <h4>Responsive table</h4>
+  <h4 class="section--title">Responsive table (float)</h4>
 </div>
-<div class="responsive_table">
+<div class="section responsive_table">
   <div class="responsive_column" style="background: red;"></div>
   <div class="responsive_column" style="background: green; height: 250px;"></div>
   <div class="responsive_column" style="background: blue;"></div>
@@ -876,15 +876,16 @@ typography)</td>
   <div class="responsive_column" style="background: purple;"></div>
   <div class="responsive_column" style="background: black;"></div>
   <div class="clearfix"></div>
-  <div id="modal">privet</div>
+  <div id="modal" class="position--example">position: absolute;<br>to the whole float table</div>
 </div>
 
 <br>
 <p></p>
 <div class="table_header_flex">
-  <h4>Responsive table</h4>
+  <div class="responsive_column_flex" style="background: blue;">3</div>
+  <h4 class="section--title">Responsive table (flex)</h4>
 </div>
-<div class="responsive_table_flex">
+<div class="section responsive_table_flex">
   <div class="responsive_column_flex" style="background: red;">1</div>
   <div class="responsive_column_flex" style="background: green;  height: 250px;">2</div>
   <div class="responsive_column_flex" style="background: blue;">3</div>
@@ -892,8 +893,42 @@ typography)</td>
   <div class="responsive_column_flex" style="background: purple;">5</div>
   <div class="responsive_column_flex" style="background: black;">6</div>
 </div>
+
+<form action="index.html" method="get">
+  <input class="form__input" type="text" name="Name">
+  <input type="button" value="Send">
+  <button type="button">Click</button>
+  <button type="reset">Reset</button>
+  <button type="submit">submit</button>
+  <input type="submit" value="Go">
+</form>
+
+<script type="text/javascript">
+    console.log("asd");
+    var forms = document.querySelectorAll("form");
+    console.log(forms);
+    forms[0].addEventListener('submit', function(e){
+        console.log("form submitted");
+        var input = document.querySelector(".form__input");
+        console.log(input.value);
+        e.preventDefault();
+    })
+    
+    var formsButton = document.querySelectorAll("button");
+    console.log(formsButton);
+    formsButton[0].addEventListener('click', function(e){
+        console.log("button clicked");
+        var inputSecond = document.querySelector(".form__input");
+        console.log(inputSecond.value);
+        e.preventDefault();
+    })
+  
+</script>
+
 </body>
 </html>
+
+
 
 
 

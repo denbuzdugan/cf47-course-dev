@@ -2,6 +2,7 @@ body {
 	background: transparent;
 	position: relative;
 }
+
 .simple_table{
 	border: 1px solid #000; 
 	margin: 0 auto;
@@ -24,7 +25,6 @@ td {
 
 .description {
 	border: 1px solid #000;
-	
 }
 
 .example {
@@ -43,17 +43,7 @@ td {
 	color: red;
 }
 
-.table_header {
-	text-align: center;
-	/*background: #eee;*/
-	/*margin: 20px;*/
-}
-
-.table_header h4 {
-	margin: 0;
-}
-
-.responsive_table {
+.responsive_table, .responsive_table_flex {
 	display: block;
 	background: #eee;
 	position: relative;
@@ -66,9 +56,8 @@ td {
 }
 
 .responsive_column:hover {
-	background: pink !important;
+	background: #ff7200 !important;
 	transition: 500ms;
-
 }
 
 .responsive_column:nth-child(4n+1){
@@ -87,11 +76,11 @@ td {
 		clear: both;
 	}
 	.responsive_column:nth-child(4n+1){
-	clear: none;
-}
+		clear: none;
+	}
 }
 
-@media (max-width: 968px) {
+@media (max-width: 991px) {
 	.responsive_column {
 		width: 50%;
 	}
@@ -99,8 +88,8 @@ td {
 		clear: both;
 	}
 	.responsive_column:nth-child(3n+1){
-	clear: none;
-}
+		clear: none;
+	}
 }
 
 @media (max-width: 767px) {
@@ -108,12 +97,6 @@ td {
 		width: 100%;
 	}
 }
-
-/*@media (min-width: 1200px) {
-	.responsive_column {
-		width: 25%;
-	}
-}*/
 
 .table_header_flex {
 	clear:both;
@@ -123,15 +106,14 @@ td {
 	clear: both;
 }
 
-
 #modal .title {background: red;}
+
 .title {background: blue;}
+
 #modal #title {background: yellow;}
-/*h1 {color: green;}*/
-/*h1.title {background:blue;}*/
-/*.title-red {background:red;}*/
+
 .title.title-red{background: purple;}
-/*h1.title-red {background:red;}*/
+
 #modal {
 	background: pink;
 	position: absolute;
@@ -146,8 +128,67 @@ td {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .responsive_column_flex {
-	width: 25%;
 	height: 200px;
-	
+	width: 50%;
 }
+
+.responsive_column_flex:nth-child(n+3) {
+	margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+	.responsive_column_flex {
+		width: 33.3333%;
+	}
+}
+
+@media (max-width: 991px) {
+	.responsive_column_flex {
+		width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.responsive_column_flex {
+		width: 100%;
+	}
+}
+
+.section--title, .section {
+	margin-top: 20px;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.position--example {
+	text-align: center;
+	animation-name: spin;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: paused;
+}
+
+.position--example:hover {
+	animation-play-state: running;
+}
+
+.position--example:hover::after {
+	content: 'FUUUUUUCCCCKKKKK';
+}
+
+.responsive_column_flex:nth-child(3) {
+	background: #fff !important;
+}
+
